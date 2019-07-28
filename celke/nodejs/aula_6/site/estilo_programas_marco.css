@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 960px;
+    margin: auto;
+    text-align: center;
+}
+
+#v_background {
+    background-image: url(imagens/vaquinha.png) ;
+    background-size: 80% ;
+    background-repeat: no-repeat ;
+    height: 400px;
+    margin-left: 250px;
+}
+
+#c_background {
+    background-image: url(imagens/cofrinho.jpeg) ;
+    background-size: 50% ;
+    background-repeat: no-repeat ;
+    height: 400px;
+    margin-left: 300px;
+}
+
+#a_background {
+    background-image: url(imagens/aposentadoria.png) ;
+    background-size: 50% ;
+    background-repeat: no-repeat ;
+    height: 252px;
+    margin-left: 300px;
+}
+
+#diferente {
+	display:none;
+}
+
+header {
+    padding: 20px;
+    background-color: blue;  
+    text-align: center;  
+    color: white;
+    font-size: 2em;
+}
+
+footer {
+    padding: 20px;
+    background-color: blue;
+    text-align: center;
+    color: white;
+    font-size: 0.9em;
+}

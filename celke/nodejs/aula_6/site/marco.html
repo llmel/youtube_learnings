@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title> Março </title>
+
+	<link rel="stylesheet" href="estilo_marco.css">
+
+</head>
+
+<body>
+
+		<div id="tudo">
+	
+			<header>
+
+				<h2> Conhecimentos Básicos - Javascript </h2>
+
+			</header>
+
+			<div id="div_between_h_e_f">
+				
+				<br>
+
+				<div class="container" id="container">
+
+					Escolha um programa: 
+					
+
+					<select id="programa">
+
+						<option value="vaquinha.html"> Dividir conta entre amigos </option>
+						<option value="cofrinho.html"> Simulação de cofrinho </option>
+						<option value="aposentadoria.html"> Tempo para aposentar </option>
+
+					</select>
+
+					<a id="link" href="#" onclick="rodar()">Rodar programa</a>
+					<br><br>
+
+					<div id="div_imagem">
+
+						<img id="anonymous" src="imagens/developer.jpeg" title="Desenvolvedor">
+
+					</div>
+
+					<div id="div_texto_central">
+							
+						<div id="texto_central">
+							No mês de março tivemos a introdução ao Javascript e aprendemos um 
+							pouco mais sobre atributos CSS.
+						</div>	
+							
+						
+
+					</div>
+
+					<div id="caixa_dagua" title="Aquário">
+
+						<div id="agua">
+							<img id="peixe1" src="imagens/peixe.png" alt="peixe">
+							<img id="peixe2" src="imagens/peixe.png" alt="peixe">
+							<img id="peixe3" src="imagens/peixe.png" alt="peixe">
+						</div>
+
+					</div>
+				
+
+					<div id="botao_encher">
+
+						<br>
+						<button type="button" onclick="encher()">Esvaziar aquário</button>
+
+					</div>
+
+					<button id="botao" type="button" onclick="ver_devs()"> Ver Desenvolvedores </button>
+					<br><br>
+
+					<a id="link_index" href="index.html"> Voltar para index </a>
+
+					<a id="link_abril" href="abril.html"> Ir para abril </a>
+
+					<div id="referencia1">90</div>
+					<div id="referencia2">10</div>
+
+				</div>
+				<br>
+
+			</div>
+
+			<footer>
+
+				Cor das letras da página:
+				<select id="cor" onchange="trocar_cor()">
+				
+					<option value=""> Original </option>
+					<option value="red"> Vermelho </option>
+					<option value="green"> Verde </option>
+					<option value="blue"> Azul </option>
+
+				</select>
+
+				<button id="botao_fundo" type="button" onclick="ver_fundo()"> Ver imagem de fundo </button> 
+
+			</footer>	
+
+		</div>
+
+</body>
+
+</html>
+
+<script>
+
+	var controle = 0 ;
+	var controle_fundo = 0 ;
+	
+	function rodar () {
+		link.href = programa.value ;
+	}
+
+	function trocar_cor () {
+		tudo.style.color = cor.value ;
+	}
+
+	function ver_devs () {
+		if (controle == 0) {	
+			anonymous.src = 'imagens/hackers.jpeg' ;
+			anonymous.style.display = 'block' ;
+			controle++ ;
+			botao.innerHTML = "Tente outra vez" ;
+		} else if (controle == 1) {
+			anonymous.src = "imagens/anonymous.png" ;
+			controle++ ;
+			botao.innerHTML = "A terceira é a da sorte" ;
+			} else if (controle == 2) {
+				anonymous.src = "imagens/interrogacao.jpg"
+				controle++ ;
+				botao.innerHTML = "Desiste brother, não aperte mais" ;
+				} else if (controle == 3) {
+					alert ("Falei para não apertar mais! \nSe você não sabe quem desenvolveu,\nnão deveria nem estar vendo") ;
+					window.location.href = "index.html" ;
+				}
+	}
+
+	function encher () {
+		if ( Number (referencia1.innerHTML) > 0 ) {
+			var a = 300 * (Number (referencia1.innerHTML)/100) ;
+			var m = 300 * (Number (referencia2.innerHTML)/100) ;
+			agua.style.height = `${a}px` ;
+			agua.style.margin = `${m}px 0 0 0` ;
+			referencia1.innerHTML = Number (referencia1.innerHTML) - 10 ;
+			referencia2.innerHTML = Number (referencia2.innerHTML) + 10 ; ;
+		} else if ( Number (referencia1.innerHTML) == 0 ) {
+			var a = 300 * (Number (referencia1.innerHTML)/100) ;
+			var m = 300 * (Number (referencia2.innerHTML)/100) ;
+			agua.style.height = `${a}px` ;
+			agua.style.margin = `${m}px 0 0 0` ;
+			agua.style.display = 'none' ;
+			alert ("Aquário vazio \nPeixes morreram") ;
+		} 
+	}
+
+	function ver_fundo () {
+		if ( controle_fundo == 0 ) {
+			div_imagem.style.display = 'none' ;
+			div_texto_central.style.display = 'none' ;
+			caixa_dagua.style.display = 'none' ;
+			botao_fundo.innerHTML = "Voltar original" ;
+			botao_encher.style.display = 'none' ;
+			botao.style.display = 'none' ;
+			link_index.style.display = 'none' ;
+			link_abril.style.display = 'none' ;
+			controle_fundo = 1 ;
+		} else {
+			div_imagem.style.display = 'block' ;
+			div_texto_central.style.display = 'block' ;
+			caixa_dagua.style.display = 'block' ;
+			botao_fundo.innerHTML = "Ver imagem de fundo" ;
+			botao_encher.style.display = 'block' ;
+			botao.style.display = 'inline' ;
+			link_index.style.display = 'block' ;
+			link_abril.style.display = 'block' ;
+			controle_fundo = 0 ;
+		}		
+	}
+
+</script>

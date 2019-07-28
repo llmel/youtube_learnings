@@ -1,0 +1,92 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 960px;
+	height: 480px;
+	margin: auto;
+	text-align:center;
+}
+
+.centralizar {
+	margin: 100px 0;
+}
+
+#div_imagem {
+	width:310px;
+	height:300px;
+	float: left;
+	border-style: solid;
+}
+
+#anonymous {
+	display: block;
+	width:310px;
+	height:300px;
+}
+
+#caixa_dagua {
+	width:310px;
+	height:300px;
+	float:left;
+	border-style: solid;
+}
+
+#div_texto_central {
+	float:left;
+	width:310px;
+	height:300px;
+	border-style: solid;	
+	background-image: url(imagens/javascript.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#div_between_h_e_f {
+	background-image: url(imagens/html_css_js.jpeg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#div_texto_central #texto_central {      /* Chamando um elemento dentro de outro */ 
+	padding: 20% 0 0 0;
+	color: red;
+}
+
+#agua {
+	background-color:blue;
+	width:310px;
+	height:300px;
+	margin: 0px;
+}
+
+#peixe1,#peixe2,#peixe3 {
+	width: 20% ;
+}
+
+#botao_encher {
+	clear:both;
+}
+
+#referencia1 , #referencia2 {
+	display: none;
+}
+
+#link_abril {
+	display:block;
+}
+
+footer {
+	clear:both;
+	text-align: center;
+	background-color:orange;
+	padding: 10px;
+}
+
+header {
+	text-align: center;
+	background-color: orange;
+	padding: 20px;
+}

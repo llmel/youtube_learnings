@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title> Guardar dinheiro </title>
+
+	<link rel="stylesheet" href="estilo_programas_marco.css">
+
+</head>
+
+<body>
+
+	<header>
+
+		<div>
+
+			Programa de Cofrinho
+
+		</div>
+	
+	</header>
+	
+	<div class="container">
+
+		<br>
+
+		Quanto você deseja conseguir economizar?
+		<input type="number" id="dinheiro">
+		<br>
+
+		Em quantos meses?
+		<input type="number" id="tempo">
+		<br><br>
+
+		<button type="button" onclick="calcular()"> Calcular </button>
+		<br><br>
+
+		<a href="marco.html"> Voltar </a>
+
+		<br><br>
+
+		<div id="c_background">
+		</div>
+
+	</div>
+
+	<footer>
+
+		MIT License
+
+	</footer>
+
+</body>
+
+</html>
+
+<script>
+	
+	function calcular () {
+		var dias = Number (tempo.value) * 30 ;
+		var meses = Number (tempo.value) ;
+		var din_necessario_dias = Number (dinheiro.value) / dias ;
+		var din_necessario_meses = Number (dinheiro.value) / meses ;
+		alert (`Você precisará guardar ${din_necessario_meses.toFixed(2)} reais por mês, que dá ${din_necessario_dias.toFixed(2)} reais por dia `) ;
+	}
+
+</script>

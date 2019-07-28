@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title> Dividir conta </title>
+
+	<link rel="stylesheet" href="estilo_programas_marco.css">
+
+</head>
+
+<body>
+	
+	<header>
+
+		<div>
+
+			Programa de Vaquinha
+
+		</div>
+
+	</header>
+
+		<div class="container">
+
+			<br>
+
+			Qual é o valor da conta?
+			<input type="number" id="conta">
+			<br>
+
+			Vocês estão em quantas pessoas?
+			<input type="number" id="qtd_pessoas">
+			<br>
+
+			Será dividido igualmente entre todos ou alguém pagará um valor diferente?
+			<select id="opcoes" onchange="verificar()">
+				
+				<option value="none"> - Escolha - </option>
+				<option value="none"> Igualmente </option>
+				<option value="inline"> Valor diferente </option>
+
+			</select>
+
+			<input type="number" id="diferente" placeholder="Qual o valor diferente">
+			<br><br>
+
+			<button type="button" onclick="calcular()"> Calcular </button>
+			<br><br>
+
+			<a href="marco.html"> Voltar </a>
+
+			<br><br>
+
+			<div id="v_background">
+			</div>
+
+		</div>
+
+	<footer>
+
+		MIT License
+
+	</footer>
+
+</body>
+
+</html>
+
+<script>
+	
+	function verificar () {
+		diferente.style.display = opcoes.value ;
+		if ( diferente.style.display == "none" ) {
+			diferente.value = 0 ;
+		}
+	}
+
+	function calcular () {
+		var divisao = 0 ;
+		if ( diferente.value != 0 ) {
+			divisao = ( Number (conta.value) - Number (diferente.value) ) /  Number (qtd_pessoas.value) ;
+			alert (`O restante (${qtd_pessoas.value-1} pessoa(s)) terá que pagar ${divisao.toFixed(2)} reias`) ;
+		} else {
+			divisao = Number (conta.value) / Number (qtd_pessoas.value) ;
+			alert (`Cada um de vocês terá que pagar ${divisao.toFixed(2)} reais`) ;
+		}
+	}
+
+</script>

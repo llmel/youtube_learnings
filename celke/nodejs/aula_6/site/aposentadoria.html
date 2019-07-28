@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title> Aposentadoria </title>
+
+	<link rel="stylesheet" href="estilo_programas_marco.css">
+
+</head>
+
+<body>
+
+	<header>
+
+		<div>
+
+			Programa de Aposentadoria
+
+		</div>
+
+	</header>
+	
+	<div class="container">
+		
+		<br>
+
+		Qual sua idade?
+		<input type="number" id="idade">
+		<br>
+
+		Quanto tempo você tem de contribuição?
+		<input type="number" id="contribuicao">
+		<br>
+
+		Você é homem ou mulher?
+		<select id="sexo">
+			
+			<option value="35"> Homem </option>
+			<option value="30"> Mulher </option>
+
+		</select>
+		<br>
+
+		<button type="button" onclick="calcular()"> Calcular tempo para aposentar </button>
+		<br><br>
+
+		<div id="div_resultado"></div>
+		<br><br>
+
+		<a href="marco.html"> Voltar </a>
+
+		<br><br>
+
+		<div id="a_background">
+			
+		</div>
+
+	</div>
+
+	<footer>
+
+		MIT License
+
+	</footer>
+
+</body>
+
+</html>
+
+<script>
+	
+	function calcular () {
+		div_resultado.innerHTML = "" ;
+		var calculo = 0 ;
+		if ( idade.value >= 60 ) {
+			div_resultado.innerHTML = "Você já tem a idade necessária para se aposentar" ;
+		} else {
+			calculo = 60 - idade.value ;
+			div_resultado.innerHTML = `Você ainda precisa trabalhar mais ${calculo} anos para completar a idade mínima` ; 
+		}
+		if ( contribuicao.value >= sexo.value ) {
+			div_resultado.innerHTML += ` e <br> você já tem o tempo de contribuição necessário` ;
+		} else {
+			calculo = sexo.value - contribuicao.value ;
+			div_resultado.innerHTML += ` e <br> você ainda precisa contribuir mais ${calculo} anos para completar a contribuição mínima`;
+		}
+	}
+
+</script>
