@@ -1,0 +1,27 @@
+Existe muita fraude em serviços de cloud. Às vezes, a memória disponibilizada, por exemplo, 3 Gb, não é livre. O sistema operacional vai consumir parte dessa memória. Outro exemplo é a quantidade de VCPUs. Tem serviços de hospedagem que dividem um core i3 em 10 VCPUs. Já outros serviços de hospedagem, separam um core i7 em 3 VCPUs. 
+
+Podemos reduzir gargalo das consultas no banco através de plugins de cache.
+
+CDN é Content Delivery Network (Rede de Distribuição de Conteúdo). É uma rede de servidores que armazena réplicas do conteúdo do seu site, fazendo com que o acesso fique mais rápido, a depender da localização geográfica do cliente.
+
+O MySQL hoje é da Oracle. Fizeram um fork por medo dele se tornar privado e criaram o MariaDB.
+
+-------------------Funcionar no Ubuntu Localmente--------------------------
+
+Para funcionar no Ubuntu localmente, deve ser adicionado uma linha de código no arquivo de configuração, para que ele ignore a solicitação de conexão com o FTP. Segue linha a ser adicionada:
+
+define('FS_METHOD','direct');
+
+Também deve ser alterada as permissões na pasta do projeto. Ele deve ter permissões de leitura e escrita.
+
+---------------------------------------------------------------------------
+
+O Google penaliza sites lentos na hora da indexação.
+O Google penaliza sites sem HTTPS na hora da indexação.
+
+As pessoas invadem sites para colocar virús, para que os acessantes baixem nas máquinas pessoais, e transformem as máquinas em zumbis. Aí o hacker vai na DeepWeb e vende um ataque de DoS com mil máquinas zumbi.
+
+Link personalizado do WPS HIDE LOGIN: /aprendendo_wp/gestao
+
+
+

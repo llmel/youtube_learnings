@@ -1,0 +1,9 @@
+Wordpress:
+	first_wp_site
+	12345678@9
+
+Gmail:
+	site.wordpress.teste001@gmail.com
+	12345678@9
+
+

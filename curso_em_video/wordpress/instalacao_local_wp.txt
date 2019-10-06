@@ -1,0 +1,15 @@
+Antes da instalação do Wordpress, houve uma preparação do ambiente:
+	- Criar e-mail para utilizar em envio de notificações
+	- Subir o XAMPP
+	- Criar banco de dados no phpmyadmin
+
+Primeiro passo: Baixar o wordpress.
+
+Segundo passo: Descompactar a pasta do wordpress, dentro da pasta htdocs do xampp.
+
+Terceiro passo: Chamar o endereço no navegador, através do localhost/nome_da_pasta
+
+Quarto passo: Seguir as instruções que aparecem na tela.
+
+ 
+OBS: para iniciar o wordpress- sudo /opt/lampp/lampp start  

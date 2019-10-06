@@ -1,0 +1,26 @@
+Criadores:
+  - Matt Mullenweg
+  - Mike Little
+
+Wordpress é o maior CMS do mundo - Content Management System.
+
+Foi uma evolução do B2. É código livre, com direitos da Wordpress Foundation. 
+
+É feito em PHP e MySQL.
+
+Inicialmente, fazia só gerenciamento de postagens em blogs.
+
+Cada versão do wordpress é uma música de Jazz.
+
+Wordpress atualiza às vezes semanalmente. É o que tem melhor indexação nos resultados de pesquisa do Google.
+
+Wordpress dá pra fazer tudo.
+
+Nem todos os temas do wordpress são responsivos.
+*Pesquisar temas e plugins diretamente pelo repositório do Wordpress.
+*Site pega vírus.
+
+Responsividade e segurança (https,ssl) no site Wordpress faz diferença para a indexação do Google.
+
+
+

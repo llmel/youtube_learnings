@@ -1,0 +1,9 @@
+FileZilla - Cliente de FTP
+
+Putty - Acesso remoto a servidores via telnet e ssh.
+
+Colorzilla - Identifica cores em sites. (Extensão firefox e chrome)
+
+FontFace Ninja - Identifica as fontes em sites. (Extensão firefox too)
+
+XAMPP - X - Qualquer plataforma ; Apache - Servidor Web ; M - MariaDB ; P - PHP ; P - Perl. Xampp é um servidor web local para fins de teste. 

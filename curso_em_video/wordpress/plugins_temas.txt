@@ -1,0 +1,24 @@
+Plugins e temas que não estiverem sendo utilizados devem ser excluídos por motivos de segurança e de performance.
+
+Tema principal: Astra
+(Não se ativa tema principal) - O desenvolvedor do tema manda todas as atualizações no tema principal. Se eu fizer alteração no código do tema principal, quando vier atualização, meu código será sobrescrito.
+	Por isso existe o tema filho. É uma maneira de garantir a manutenção do seu código e as atualizações do tema pai (tema principal). O desenvolvedor do tema não atualiza tema filho, porque é seu. O tema filho sempre herda as características do tema pai.
+
+OBS: Tema filho do astra é gerado no próprio site, não é encontrado na busca do Wordpress.
+
+Plugins:
+	- Editor Clássico - Versão anterior ao editor de blocos Gutemberg
+	- Microthemer - Gerenciador de CSS
+	- Gutenberg Blocks - Ultimate Addons
+		OBS: Para o Gutemberg funcionar junto com o editor
+		clássico, é necessário alterar duas configurações
+		no editor clássico: editor padrão para blocos e
+		permitir que o usuário escolha o editor.
+	- Companion Auto Update - Atualiza todos os temas, plugins e o próprio wordpress automaticamente.
+	- EWWW Image Optimizer - Controlar qualidade da imagem, tamanho da imagem, etc.
+	- UpdraftPlus - Backup e restauração.
+	- WP Super Cache - Acelerar carregamento de sites dinâmicos.
+	- WPForms Lite - O Wordpress não tem formulário nativo. Este plugin é um dos vários plugins para formulários.
+	- WPS Hide Login - Bloqueia o acesso ao caminho padrão de login do Wordpress, que são o arquivo wp-login.php e o diretório wp-admin.
+
+OBS: Se colocarmos na url do site localhost o http"S", você não conseguirá acessar o painel de gestão. Para mudar este endereço, só ir direto na tabela "options".
