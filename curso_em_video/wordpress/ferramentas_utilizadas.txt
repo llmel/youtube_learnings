@@ -6,4 +6,19 @@ Colorzilla - Identifica cores em sites. (Extensão firefox e chrome)
 
 FontFace Ninja - Identifica as fontes em sites. (Extensão firefox too)
 
-XAMPP - X - Qualquer plataforma ; Apache - Servidor Web ; M - MariaDB ; P - PHP ; P - Perl. Xampp é um servidor web local para fins de teste. 
+XAMPP - X - Qualquer plataforma ; Apache - Servidor Web ; M - MariaDB ; P - PHP ; P - Perl. Xampp é um servidor web local para fins de teste.
+
+Site ColorLovers - Paletas de cores e logos por assunto, por temas e segmentos específicos.
+Site Color.adobe.com - Cria paletas de cores. Têm integração com Photoshop e Illustrator. 
+Site coolors.co - Cria paletas de cores.
+
+Site fonts.google.com - Biblioteca de fontes do Google. 
+
+Site stock.adobe.com - Banco de imagem pago.
+Site shutterstock.com - Banco de imagem pago.
+Site pexels.com - Banco de imagem free.
+Site pixabay.com - Banco de imagem free.
+Site unsplash.com - Banco de imagem free. (Sem escolha de tamanho)
+
+
+

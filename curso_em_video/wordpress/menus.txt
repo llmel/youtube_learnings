@@ -1,0 +1,18 @@
+				Menus
+
+A opção de "Menus" está localizada dentro de "Aparência"
+
+Menus conseguem indexar páginas, posts, tags, etc. 
+
+Sempre ficar atento ao mais recente e ao ver tudo.
+
+OBS: Sempre habilitar todas as opções da tela.
+
+--------------------------------------------------------------------------
+			     Topo e Rodapé
+
+Alguns temas, como o Astra, têm os próprios links de personalizar, que redirecionam diretamente para a função clicada. 
+
+Altura da linha = Distância entre uma linha e outra
+
+

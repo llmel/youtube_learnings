@@ -20,7 +20,4 @@ Nem todos os temas do wordpress são responsivos.
 *Pesquisar temas e plugins diretamente pelo repositório do Wordpress.
 *Site pega vírus.
 
-Responsividade e segurança (https,ssl) no site Wordpress faz diferença para a indexação do Google.
-
-
 

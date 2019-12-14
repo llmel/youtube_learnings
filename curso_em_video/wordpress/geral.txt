@@ -23,5 +23,31 @@ As pessoas invadem sites para colocar virús, para que os acessantes baixem nas 
 
 Link personalizado do WPS HIDE LOGIN: /aprendendo_wp/gestao
 
+Responsividade e segurança (https,ssl) no site wordpress faz diferença para a indexação do Google.
 
+---------------------------------------------------------------------------
+			Painel de Controle Wordpress
+
+Página é diferente de Post.
+
+Página é um conteúdo mais geral. Possui opções de menus, etc.
+Post é basicamente textos e imagens. Posts são agrupáveis em tags e categorias. Usado principalmente para notícias e dicas.
+
+-----------------------------------------------------------------------
+			Planejamento do site
+
+Definir paleta de cores - Baseando-se nas cores da logo do cliente. Paleta deve ter no máximo 6 cores. Nem todas são utilizadas no site, geralmente só umas duas ou três da paleta.
+
+Definir fontes - Fontes de sites são geralmente as fontes web, ou seja, carregadas através dos CDNs. Biblioteca GoogleFonts é a mais utilizada. 3 fontes no máximo para um site.
+
+Buscar bancos de imagens (Gratuitos e Pagos).
+Tamanho de imagem para destaque: 1280.
+Tamanho de imagem para coluna: 640.
+Impressão: tamanho original.
+É legal utilizar o Photoshop para redimensionar a imagem para o tamanho que você precisa, que não estava nas opções do banco de imagem. Ao invés de modificar e salvar, podemos exportar e escolher a qualidade da imagem. Existe a opção exportar para a web, que faz a compressão. Formatos padrão são PNG e JPG. 
+
+---------------------------------------------------------------------------
+
+
+			
 
