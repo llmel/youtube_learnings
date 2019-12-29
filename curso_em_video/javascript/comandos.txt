@@ -1,0 +1,9 @@
+Segurar a tecla SHIFT e apertar no botão de recarregar a página força o recarregamento via web, sem utilizar o cache.
+
+Podemos desabilitar o javascript de uma página, indo nas ferramentas de desenvolvedor.
+
+A janela de dev pode ser splitada e transformada em janela independente.
+
+Através do Chrome, conseguimos buscar todas imagens de um site através da dev tool de source.
+
+

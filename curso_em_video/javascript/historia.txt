@@ -1,0 +1,41 @@
+Frameworks Javascript:
+	- JQuery - Criado pela Mozilla
+	- Angular - Google
+	- React - Facebook
+	- Vue - Melhor que o Angular, criado por ex-dev da Google
+	- Elektron - Mantido por Github, criação de interfaces gráficas
+	- Ionic - SDK para aplicações de dispositivos móveis
+	- Cordova - Apache, é base do IONIC
+	- Quase todos acima utilizam o NodeJS
+
+Em 1993, Thimoty Berner Lee criou a linguagem HTML, o protocolo HTTP e a tecnologia WWW. O HTTP foi incorporado ao TCP/IP. Lee trabalha no CERN.
+
+Mark Andersen criou o Mosaic, o primeiro navegador.
+
+Em 1994, Mark saiu do NCCA e se uniu ao fundador da silicon graphics, Jim Clark. Os dois juntos fundaram a Netscape.
+
+Em 1995, Brandon naike, desenvolvedor, criou a linguagem móoca. Depois passou a se chamar livescript. Como o Java estava sendo lançado pela Sun Microsystems e ficando muito famoso, o pessoal da Netscape pegou o livescript e transformou em Javascript.
+
+O internet explorer foi baseado no mosaic. A Microsoft copiou o JS, melhorou, e criou o JotaScript.
+
+A Netscape, com medo de virar zona, padronizou o Javascript, em 1997.
+ECMA (Associação Européia de Fabricantes de Computadores), foi procurada pela Netscape. 
+
+O ECMA é como se fosse a ISO americana.
+
+ECMAScript é a linguagem Javascript padronizada.
+
+Em 2002, a Netscape faliu, e então os caras da Netscape fundaram a fundação Mozilla (nome baseado em um projeto antigo da Netscape, variante de Godzilla). E foi criado o Firefox.
+
+Em 2008 foi criado o Google Chrome.
+
+Cada navegador tem seu motor:
+	Firefox - SpiderMonkey
+	Safari - Nitro
+	Opera - Caracan
+	Edge - Chakra
+	Chrome - V8 (código JIT - Just in Time)
+
+Em 2010, pegaram o V8, que era código aberto, e criaram o NodeJS.
+
+

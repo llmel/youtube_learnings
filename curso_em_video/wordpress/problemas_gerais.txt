@@ -1,0 +1,22 @@
+- Configuração de HTTPS:
+	Somente quando estiver hospedado em um domínio.
+	Quando estiver em servidor local, vai quebrar o acesso a pasta.
+
+- Alteração de caminho padrão de login (arquivo wp-admin e wp-login):
+	Somente quando estiver hospedado em um domínio.
+	Quando estiver em servidor local, não é necessário. 
+
+- Baixar imagens de qualquer site:
+	Através do google chrome, dá pra salvar todas as imagens.
+
+- Alterar tempo de timeout do Wordpress:
+	/opt/lampp/php/php.ini
+	Instrução "max_execution_time"
+	Basta alterar o tempo desta instrução
+
+- Instalar plugin manualmente:
+	/opt/lampp/htdocs/"pasta_site"/wp-content/plugins/
+	Basta inserir a pasta do plugin neste local acima.
+
+
+

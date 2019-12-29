@@ -1,0 +1,71 @@
+Primeiro disco rígido - Winchester
+
+Evolução de armazenamento dos dados - Papel, acesso sequencial, acesso direto. 
+
+*Cobol surgiu da reunião do Codasyl (empresas, militares e governo americano).
+
+SGBD = DMS
+
+Banco de dados é composto:
+	- Base de dados
+	- Sistema Gerenciador
+	- Linguagem de exploração
+	- Programas adicionais (gerência de usuários,otimizadores de dados)
+
+Bancos existentes:
+	- Oracle
+	- IBM (DB2)
+	- SQL Server
+	- MySQL (É da Oracle)
+	- MariaDB
+	- Postgre
+	- Firebird
+
+Tipos primitivos de dados:
+	- Números:
+		- Inteiros:
+			- TinyInt
+			- SmallInt
+			- Int
+			- MediumInt
+			- BigInt
+		- Reais:
+			- Decimal
+			- Float
+			- Double
+			- Real
+		- Lógicos:
+			- Bit
+			- Boolean
+	- Data/Tempo:
+		- Date
+		- DateTime
+		- TimeStamp
+		- Time
+		- Year
+	- Literais:
+		- Caracteres:
+			- Char
+			- Varchar
+		- Textos:
+			- TinyText
+			- Text
+			- MediumText
+			- LongText
+		- Binários:
+			- TinyBlob
+			- Blob
+			- MediumBlob
+			- LongBlob
+		- Coleções:
+			- Enum
+			- Set
+	- Espaciais:
+		- Geometry
+		- Point
+		- Polygon
+		- MultiPolygon
+
+
+
+

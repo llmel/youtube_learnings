@@ -11,5 +11,8 @@ Terceiro passo: Chamar o endereço no navegador, através do localhost/nome_da_p
 
 Quarto passo: Seguir as instruções que aparecem na tela.
 
+Quinto passo: Dar permissão dentro da pasta, com o comando "sudo chmod -R 757 <nome_pasta>"
+
+Sexto passo: Ignorar solicitação de conexão com o FTP, adicionado no arquivo wp-config.php a instrução "define('FS_METHOD','direct')"
  
 OBS: para iniciar o wordpress- sudo /opt/lampp/lampp start  

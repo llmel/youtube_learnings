@@ -6,14 +6,6 @@ CDN é Content Delivery Network (Rede de Distribuição de Conteúdo). É uma re
 
 O MySQL hoje é da Oracle. Fizeram um fork por medo dele se tornar privado e criaram o MariaDB.
 
--------------------Funcionar no Ubuntu Localmente--------------------------
-
-Para funcionar no Ubuntu localmente, deve ser adicionado uma linha de código no arquivo de configuração, para que ele ignore a solicitação de conexão com o FTP. Segue linha a ser adicionada:
-
-define('FS_METHOD','direct');
-
-Também deve ser alterada as permissões na pasta do projeto. Ele deve ter permissões de leitura e escrita.
-
 ---------------------------------------------------------------------------
 
 O Google penaliza sites lentos na hora da indexação.
@@ -46,8 +38,23 @@ Tamanho de imagem para coluna: 640.
 Impressão: tamanho original.
 É legal utilizar o Photoshop para redimensionar a imagem para o tamanho que você precisa, que não estava nas opções do banco de imagem. Ao invés de modificar e salvar, podemos exportar e escolher a qualidade da imagem. Existe a opção exportar para a web, que faz a compressão. Formatos padrão são PNG e JPG. 
 
----------------------------------------------------------------------------
+Definir tudo isso na configuração global do site: cor do tema, cor dos links, cor ao passar o mouse, fonte de título, fonte de texto, tamanho de títulos, cor de botões, barras laterais, logo ícone e título do site, etc.
+
+--------------------------------------------------------------------------
+			Conteúdo das páginas
+
+Montar o conteúdo da página HOME (Editor de Blocos) - Conteúdo da home pode ser um pouco diferente do padrão, não tem problema.
+
+A Home é a página mais difícil de fazer em um site.
+
+As páginas no wordpress possuem uma linha do tempo. Cada modificação aplicada se torna uma "revisão". Podemos retornar a página para revisões anteriores.
+
+Depoimentos - "Meu amigo me indicou". Somos muito suscetíveis a opinião dos outros. Em marketing, se chama prova social. Portfólio é um tipo de prova social. Depoimento tem que ser uma coisa honesta, tem que ser do cliente.
+
+Para descrição das imagens, é legal colocar um identificador da imagem, e as palavras-chave do seu site.
+
+Thumbnail = Miniatura
 
 
-			
+		
 

@@ -1,0 +1,17 @@
+Toda variável em PHP começa com um cifrão ($):
+	$idade = 3;
+
+Nomes de variáveis todos em letras minúsculas.
+
+PHP tem tipagem dinâmica, igual javascript.
+
+Tipos:
+	Inteiro = (int),(integer)
+	Real = (real),(float),(double)
+	Caractere = (string)
+	Lógico = (???) - True = 1 - False = vazio;
+	*typecast == "tipos das variáveis"
+
+Variáveis só são interpretadas dentro de aspas duplas. Em aspas simples, são consideradas strings literais.
+
+

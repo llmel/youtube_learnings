@@ -1,0 +1,62 @@
+A lenda diz que quando tentamos aprender uma nova tecnologia, devemos fazer o olá mundo, senão nunca aprenderemos aquela tecnologia.
+
+A tag <!DOCTYPE html> diz que o documento é html-5.
+
+O parâmetro lang informa o idioma do documento.
+
+A tag HEAD contém informações comportamentais da página, enquanto BODY é o conteúdo em si.
+
+Para tags que não contém fechamento, podemos colocar a barra antes do sinal de maior da tag. EX: <meta charset="UTF-8"/>
+
+Padrão de Caracteres Americano é o ANSI. O Padrão latino é UTF-8.
+
+A tag H1 não é tamanho de letra (isso é só formatação), é hierarquia de títulos. H2 é um subtítulo de H1, H3 é um subtítulo de H2, etc.
+
+CSS é sempre digitado com letra minúscula.
+
+Nomes de arquivos e pastas sempre em letra minúscula.
+
+É uma boa prática começar os nomes das pastas com _ (underline), pois tudo é organizado alfabeticamente no linux e mac (pastas e arquivos). Somente no windows que as pastas vêm primeiro, independente do nome delas.
+
+No HTML-5, existe uma maneira de agrupar os títulos. Agrupar títulos não tem diferença visual. A diferença é semântica (significado). Para fazer isso, utilizamos a tag <hgroup></hgroup>.
+
+Tag para cabeçalho dentro do body é a tag <header></header>.
+
+&nbsp; - Non-breaking Space (espaço sem quebra) - Representa um espaço.
+
+Quebras de linha, espaços em branco, hifenização e quebra de palavras.
+
+Tag <wbr/> - É para quebra de palavras. Indica onde uma palavra pode ser dividida.
+
+&shy - Soft Hyphen - Hifenização - É uma quebra de palavra com hífen.
+
+Símbolos especiais:
+	- &lt; - <
+	- &gt; - >
+	- &le; - _<
+	- &ge; - _>
+	- &pound; - Libra
+	- &yen; - Yenes
+
+HTML5 se foca em semântica.
+CSS3 se foca em formatação.
+
+A tag <i></i> apenas formata o texto em itálico (letra inclinada). A tag <em></em> dá ênfase em uma palavra, informa ao navegador a palavra destacada
+
+A tag <u></u> (underline) não é mais utilizada no html5. Somente via css.
+A tag <b></b> (bold) não é mais utilizada no html5.
+A tag <s></s> (strike) que é o risco no meio da palavra, não é do html5. A tag equivalente a esta no html5 é <del></del>, que além do resultado visual, traz resultado semântico.
+
+A tag <span></span> é utilizada para formatar pequenos trechos de texto.
+
+A tag <sup></sup> e <sub></sub> são sobrescrito e subscrito.
+
+*Tags que não existem não geram erros, simplesmente são ignoradas pelo navegador.
+
+A tag <code></code> é semântica, indica trecho de código. 
+
+A tag <pre></pre> considera todos os espaços e enters.
+
+*Não é porque funciona, que está certo.
+
+

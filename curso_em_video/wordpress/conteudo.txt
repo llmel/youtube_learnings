@@ -1,0 +1,21 @@
+Para editar conteúdo, utilizamos o editor de blocos Gutemberg.
+
+Utilizamos os blocos do plugin ultimate addons ao invés dos blocos padrão.
+
+Um bloco de seção nada mais que uma tag Section do html.
+
+A caixa de informação é um monte de divs e spans.
+
+O separador de uma "caixa de informação gutemberg" não tem a opção desligar. Necessário alterar o style para nenhum.
+
+Somente abrir páginas em nova janela quando for enviar o usuário para outro site. Enquanto estiver navegando no seu domínio, sempre redirecionar na mesma janela.
+
+A Home deve levar o usuário, de forma inteligente, para o site inteiro.
+
+Os blocos de seção sempre devem estar com layout em largura total.
+
+Para inserir espaço em elementos sem margem, podemos utilizar um bloco de elemento de layout, chamado espaçador.
+
+Existe um bloco específico para depoimentos.
+
+

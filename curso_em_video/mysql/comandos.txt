@@ -1,0 +1,25 @@
+Para ver a estrutura interna de uma tabela:
+	describe <nome_tabela>;
+
+Atalho para executar instruções:
+	CTRL + Enter
+
+Constraints:
+	- Not null
+	- Default
+	- Auto_increment
+	- Primary key. Ex: [...] primary key (`id caça`);
+
+Definir conjunto de caracteres padrão tanto em bases quanto nas tabelas:
+	Base:
+		create database teste
+		default character set utf8
+		default collate utf8_general_ci;
+	Tabela:
+		create table teste () default charset = utf8;
+
+Para inserir nomes compostos de colunas:
+	Basta utilizar crases. Ex:
+	`id caça` int not null auto_increment.
+
+

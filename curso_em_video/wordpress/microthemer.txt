@@ -1,0 +1,5 @@
+CTRL + ALT + H - Destaca na tela os elmentos que estão sendo alterados, aquilo que você está mexendo no momento.
+
+Microthemer faz salvamento auomático das modificações por padrão. Esta configuração é alterável.
+
+

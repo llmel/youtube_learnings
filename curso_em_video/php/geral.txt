@@ -1,0 +1,27 @@
+Sistemas de gerenciamento de conteúdo (CMS) que utilizam PHP:
+	- Wordpress, Joomla, Drupal - Criação de sites
+	- Magento, Prestashop - Loja eletrônica
+	- Sugar CRM - Gerenciamento de empresa
+	- MediaWiki - Rede colaborativa de conteúdo
+	- Elgg. - Redes sociais
+	- PHPBB - Fóruns
+	- Moodle - Ambiente educacional
+
+Modelo Client-side - Tudo funciona no lado do cliente, o servidor só fornece os arquivos, como os HTML, CSS e JAVASCRIPT.
+
+Apache - Transforma uma máquina em um servidor.
+
+Modelo Server-side - PHP, ASP(.NET), JSP, Ruby, etc. O processamento é feito para cada cliente, um HTML personalizado é gerado e enviado diretamente ao cliente. 
+
+O LAMPP possui um interpretador PHP.
+
+Supertags são utilizadas para inserir código de outras linguagens.
+
+Supertag PHP:
+	<?PHP   ?>
+
+Arquivos HTML não interpretam comandos dentro das supertags.
+
+Site php.net possui toda a documentação do PHP.
+
+
