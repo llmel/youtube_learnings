@@ -1,0 +1,30 @@
+Utilizei os blocos "parágrafo" e "galeria".
+
+Categorias:
+	- Nome
+	- Slug é preenchido sozinho
+	- Categoria Ascendente - É a hierarquia de categorias
+	- Descrição não é necessário preencher
+
+Tags são filtros para uma categoria. Ex: Receitas > Bolos, Lanches, etc.
+
+Todo post começa na classificação "sem categoria".
+
+Tags podem ter espaços. É melhor criá-las no próprio post do que na página própria das tags.
+
+Posts:
+	- Imagem destacada - É a imagem do post que irá aparecer no link do post.
+	- Resumo - É o texto antes do botão "Leia Mais", que fica no link do post.
+	- Discussão - Permissão ou não de comentários.
+
+Para controlar o aparecimento do título, tags, categoria, autor do post e imagem em destaque, devemos ir no personalizar do tema.
+
+Podemos utilizar também o editor clássico para posts.
+
+Clicar no título no post, nos direciona para o editor em que ele foi criado.
+
+List de posts é um archive.
+
+Basta utilizar o bloco do ultimate add-ons chamado "grade de posts". Ele adiciona todos os posts, aí você controla a listagem e a páginação nas configurações do bloco.
+
+

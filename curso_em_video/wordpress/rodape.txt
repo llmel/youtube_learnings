@@ -1,0 +1,20 @@
+Há duas opções para edição do rodapé:
+	- Personalizar o tema. A vantagem é que ele já aplica a todas as páginas.
+	- Colocar em uma página específica e copiar para as outras.
+
+-----------------Rodapé através de bloco de seção--------------------------
+
+Alterar a tag HTML da seção para "footer". A diferença não é visual, é semântica.
+
+Salvar a seção como bloco reutilizavél e usar nas outras páginas.
+
+Somente nos posts e artigos que não será possível utilizar este bloco.
+
+-----------------Rodapé através da personalizaçõa do tema------------------
+
+Barra do rodapé <> Widget do rodapé
+
+Este tipo de rodapé vai aparecer no site inteiro, independentemente de ser página, post, artigo, etc.
+
+
+

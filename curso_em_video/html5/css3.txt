@@ -22,4 +22,25 @@ background-image: url("caminho_da_imagem");
 
 color: rgb(r,g,b) / rgba (r,g,b,transparencia entre 0 e 1) / #FFFFFF / HSL (Matiz,Saturação(%),Luminosidade(%)) / HSLA ;
 
+Sempre definir no ínicio do documento de estilo o padrão de caractere utilizado. No caso:
+	@charset "UTF-8";
+
+Sempre que utilizar classes, devemos seguir o padrão para referenciá-las, que é o nome da tag + o nome da classe. Exemplo:
+	figure.foto_legenda {}
+
+figure.foto_legenda img {} - Esta referência indica que somente as tags img que estão dentro das tags figure, utilizando classes foto_legenda, que sofrerão os estilos definidos na sequência.
+
+Atributo position:
+	position: relative; - Quer dizer que a classe/tag em questão ficará exatamente na posição em que está no arquivo html.
+	position: absolute; - A posição é ajustável, independente da ordem no arquivo html. Logo após, devemos utilizar: top: 0px, por exemplo.
+
+Para manter uma tag dentro de outra:
+	box-sizing: border-box (o elemento pai deve estar com borda definida) / content-box;
+
+Transição:
+	O tempo é definido na tag em si:
+		- transition: opacity 0.5s;
+	A opacidade é definida no hover:
+		- opacity: 1;
+
 

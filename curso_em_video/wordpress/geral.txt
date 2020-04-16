@@ -55,6 +55,12 @@ Para descrição das imagens, é legal colocar um identificador da imagem, e as 
 
 Thumbnail = Miniatura
 
+Todo short-code no wordpress fica entre colchetes [].
+
+Short-code é uma referência que será substituída por conteúdo. Short-code recebe variáveis.
+
+Controlar o tamanho das seções através do padding.
+
 
 		
 

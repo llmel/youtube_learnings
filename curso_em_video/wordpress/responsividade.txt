@@ -1,0 +1,20 @@
+sites não responsivos são penalizados pelo Google.
+
+Podemos mexer na responsividade em 3 pontos:
+	- Astra
+	- Gutemberg
+	- Microthemer
+
+Astra:
+	- No personalizar, em títulos, por exemplo, temos a configuração de tamanhos para desktop, tablets e celulares. Mas este ajuste só funciona caso não tenhamos forçado o tamanho da fonte dentro da página em si.
+
+Gutemberg:
+	- Colunas que ficam empilhadas na ordem errada, existe a opção de inverter a posição das colunas na configuração do bloco das colunas avançadas.
+	- Imagem como background de uma coluna avançada. No celular ela fica uma faixa bem pequena. Basta ajudar o padding, somente para celular, e colocar o tamanho desejado.
+	- Bloco de lista de ícones. No desktop está organizado como horizontal. Para configurar no celular como empilhado, basta mudar a opção "stacks on (empilhar em)" e selecionar a opção tablet, pois é um ponto de quebra que garante o funcionamento no tablet e no celular.
+
+
+Microthemer:
+	- Largura de títulos de um cardápio, por exemplo. Temos que criar uum seletor e modifica-lo somente para o dispositivo celular.
+
+

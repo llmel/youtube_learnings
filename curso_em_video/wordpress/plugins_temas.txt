@@ -20,5 +20,13 @@ Plugins:
 	- WP Super Cache - Acelerar carregamento de sites dinâmicos.
 	- WPForms Lite - O Wordpress não tem formulário nativo. Este plugin é um dos vários plugins para formulários.
 	- WPS Hide Login - Bloqueia o acesso ao caminho padrão de login do Wordpress, que são o arquivo wp-login.php e o diretório wp-admin.
+	- Simple Lightbox - Transforma o bloco de galeria em um apresentador de imagens.
+	- Post expirator - Por padrão nativamente no wordpress, conseguimos configurar a data de início do post, mas não a data de validade. Este plugin permite isso.
+	- Post types order - Permite o controle de ordem que os posts serão apresentados, independente de sua data de publicação.
+	- Astra starter sites - Permite importar modelos de conteúdo prontos.
+
+	- WPDataTables - Para gráficos.	
 
 OBS: Se colocarmos na url do site localhost o http"S", você não conseguirá acessar o painel de gestão. Para mudar este endereço, só ir direto na tabela "options".
+
+

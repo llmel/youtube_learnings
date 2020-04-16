@@ -59,4 +59,25 @@ A tag <pre></pre> considera todos os espaços e enters.
 
 *Não é porque funciona, que está certo.
 
+Nunca controlar tamanho de imagem no html, sempre redimensionar a imagem em editores de foto.
+
+A tag <figure></figure> é semântica, indica uma imagem no meio do conteúdo.
+
+A tag <figcaption></figcaption> insere legenda para imagens.
+
+A tag <nav></nav> é container de menu de navegação.
+Devemos utilizar listas em conjunto com as navs.
+
+Tipos de listas ordenadas:
+	- 1 - numérico
+	- a/A - alfabético minúsculo/maiúsculo
+	- i/I - algarismos romanos minúsculo/maiúsculo
+Para controlar o início, tem o atributo "start".
+	Ex: <ol type="i" start="5">
+
+Tipos de listas não ordenadas:
+	- Square
+	- Circle
+	- Disc
+
 

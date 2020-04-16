@@ -2,6 +2,8 @@ Para editar conteúdo, utilizamos o editor de blocos Gutemberg.
 
 Utilizamos os blocos do plugin ultimate addons ao invés dos blocos padrão.
 
+Definir a largura na personalização do tema e colocar as seções subsequentes com a opção de herdar largura do tema.
+
 Um bloco de seção nada mais que uma tag Section do html.
 
 A caixa de informação é um monte de divs e spans.
@@ -17,5 +19,11 @@ Os blocos de seção sempre devem estar com layout em largura total.
 Para inserir espaço em elementos sem margem, podemos utilizar um bloco de elemento de layout, chamado espaçador.
 
 Existe um bloco específico para depoimentos.
+
+Um ícone nada mais é que uma fonte.
+
+Quando não estiver sendo possível remover margem, lembrar que o tamanho da linha deve estar igual ao tamanho da fonte.
+
+Podemo salvar qualquer bloco como reutilizável. Quando chamarmos ele em outra página, podemos convertê-lo para bloco comum e fazer alterações somente naquela página. Alterações feitas no pŕoprio bloco reutilizável, serão aplicadas a todas as páginas onde ele foi usado.
 
 

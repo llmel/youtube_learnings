@@ -1,5 +1,14 @@
+É uma ferramenta de edição de estilos.
+
 CTRL + ALT + H - Destaca na tela os elmentos que estão sendo alterados, aquilo que você está mexendo no momento.
 
 Microthemer faz salvamento auomático das modificações por padrão. Esta configuração é alterável.
+
+Microthemer serve para refinar responsividade, em cada tipo de aparelho.
+
+A primeira coisa a fazer, sempre, é capturar o elemento a ser editado. Basta clicar na opção "destino" e selecionar o elemento.
+Após selecionar, damos um nome para o rótulo, escolhemos em qual pasta será salvo, e então clicamos em "criar seletor".
+
+Podemos personalizar modificações por página. Basta colocar a classe que nomeia o body da página na frente do id ou classe que você está editando.
 
 

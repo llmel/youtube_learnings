@@ -22,4 +22,9 @@ Para inserir nomes compostos de colunas:
 	Basta utilizar crases. Ex:
 	`id caça` int not null auto_increment.
 
+Mostrar todas as tabelas da base:
+	show tables;
+
+Tipo de aspas: Sempre simples ('dado');
+
 
